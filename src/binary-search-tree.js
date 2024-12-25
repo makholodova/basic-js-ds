@@ -105,7 +105,7 @@ class BinarySearchTree {
     }
   }
 
-  remove() {
+  min() {
     if (!this.rootNode) {
       return null;
     }
